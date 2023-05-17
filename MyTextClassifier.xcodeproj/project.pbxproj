@@ -11,6 +11,21 @@
 		FE986E042A1261C1002ADF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E032A1261C1002ADF64 /* ContentView.swift */; };
 		FE986E062A1261C2002ADF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE986E052A1261C2002ADF64 /* Assets.xcassets */; };
 		FE986E092A1261C2002ADF64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE986E082A1261C2002ADF64 /* Preview Assets.xcassets */; };
+		FE986E182A126284002ADF64 /* TextClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E172A126284002ADF64 /* TextClassifier.swift */; };
+		FE986E1A2A1262AF002ADF64 /* SizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E192A1262AF002ADF64 /* SizeModel.swift */; };
+		FE986E1C2A1262D3002ADF64 /* ClassifierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E1B2A1262D3002ADF64 /* ClassifierModel.swift */; };
+		FE986E1F2A126317002ADF64 /* JSONInformationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */; };
+		FE986E222A126341002ADF64 /* IndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E212A126341002ADF64 /* IndicatorsView.swift */; };
+		FE986E252A1263F2002ADF64 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FE986E242A1263F2002ADF64 /* SwiftyJSON */; };
+		FE986E272A126B33002ADF64 /* SaveMLModelPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E262A126B33002ADF64 /* SaveMLModelPopover.swift */; };
+		FE986E292A1272D6002ADF64 /* CreateJsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E282A1272D6002ADF64 /* CreateJsonView.swift */; };
+		FE986E2B2A127312002ADF64 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E2A2A127312002ADF64 /* LogModel.swift */; };
+		FE986E2D2A13BAF4002ADF64 /* ButtonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */; };
+		FE986E352A14F01F002ADF64 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E342A14F01F002ADF64 /* JsonModel.swift */; };
+		FE986E372A14F0A6002ADF64 /* JsonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E362A14F0A6002ADF64 /* JsonController.swift */; };
+		FE986E392A14FE54002ADF64 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E382A14FE54002ADF64 /* ContentController.swift */; };
+		FE986E3F2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E3E2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift */; };
+		FE986E432A15093E002ADF64 /* SaveMLModelPopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E422A15093E002ADF64 /* SaveMLModelPopoverController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,20 @@
 		FE986E052A1261C2002ADF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE986E082A1261C2002ADF64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE986E0A2A1261C2002ADF64 /* MyTextClassifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTextClassifier.entitlements; sourceTree = "<group>"; };
+		FE986E172A126284002ADF64 /* TextClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextClassifier.swift; sourceTree = "<group>"; };
+		FE986E192A1262AF002ADF64 /* SizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeModel.swift; sourceTree = "<group>"; };
+		FE986E1B2A1262D3002ADF64 /* ClassifierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierModel.swift; sourceTree = "<group>"; };
+		FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInformationsView.swift; sourceTree = "<group>"; };
+		FE986E212A126341002ADF64 /* IndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsView.swift; sourceTree = "<group>"; };
+		FE986E262A126B33002ADF64 /* SaveMLModelPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMLModelPopover.swift; sourceTree = "<group>"; };
+		FE986E282A1272D6002ADF64 /* CreateJsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJsonView.swift; sourceTree = "<group>"; };
+		FE986E2A2A127312002ADF64 /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
+		FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModel.swift; sourceTree = "<group>"; };
+		FE986E342A14F01F002ADF64 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		FE986E362A14F0A6002ADF64 /* JsonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonController.swift; sourceTree = "<group>"; };
+		FE986E382A14FE54002ADF64 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		FE986E3E2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMLModelPopoverModel.swift; sourceTree = "<group>"; };
+		FE986E422A15093E002ADF64 /* SaveMLModelPopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMLModelPopoverController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE986E252A1263F2002ADF64 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,10 +82,11 @@
 		FE986E002A1261C1002ADF64 /* MyTextClassifier */ = {
 			isa = PBXGroup;
 			children = (
-				FE986E012A1261C1002ADF64 /* MyTextClassifierApp.swift */,
-				FE986E032A1261C1002ADF64 /* ContentView.swift */,
-				FE986E052A1261C2002ADF64 /* Assets.xcassets */,
 				FE986E0A2A1261C2002ADF64 /* MyTextClassifier.entitlements */,
+				FE986E102A1261EA002ADF64 /* Application */,
+				FE986E112A126205002ADF64 /* Resources */,
+				FE986E122A126218002ADF64 /* Sources */,
+				FE986E162A126255002ADF64 /* Utils */,
 				FE986E072A1261C2002ADF64 /* Preview Content */,
 			);
 			path = MyTextClassifier;
@@ -67,6 +98,163 @@
 				FE986E082A1261C2002ADF64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE986E102A1261EA002ADF64 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E012A1261C1002ADF64 /* MyTextClassifierApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FE986E112A126205002ADF64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E052A1261C2002ADF64 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE986E122A126218002ADF64 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E2F2A14EEFE002ADF64 /* CreateJson */,
+				FE986E2E2A14EEBA002ADF64 /* Content */,
+				FE986E3A2A1507BD002ADF64 /* SaveMLModelPopover */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FE986E132A126230002ADF64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE986E142A126236002ADF64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E1D2A126301002ADF64 /* Components */,
+				FE986E032A1261C1002ADF64 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE986E152A12623C002ADF64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E382A14FE54002ADF64 /* ContentController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE986E162A126255002ADF64 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E332A14EFBE002ADF64 /* General Models */,
+				FE986E172A126284002ADF64 /* TextClassifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FE986E1D2A126301002ADF64 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */,
+				FE986E212A126341002ADF64 /* IndicatorsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FE986E2E2A14EEBA002ADF64 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E132A126230002ADF64 /* Model */,
+				FE986E142A126236002ADF64 /* View */,
+				FE986E152A12623C002ADF64 /* Controller */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		FE986E2F2A14EEFE002ADF64 /* CreateJson */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E302A14EF1D002ADF64 /* Model */,
+				FE986E312A14EF24002ADF64 /* View */,
+				FE986E322A14EF29002ADF64 /* Controller */,
+			);
+			path = CreateJson;
+			sourceTree = "<group>";
+		};
+		FE986E302A14EF1D002ADF64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E342A14F01F002ADF64 /* JsonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE986E312A14EF24002ADF64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E282A1272D6002ADF64 /* CreateJsonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE986E322A14EF29002ADF64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E362A14F0A6002ADF64 /* JsonController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE986E332A14EFBE002ADF64 /* General Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E1B2A1262D3002ADF64 /* ClassifierModel.swift */,
+				FE986E2A2A127312002ADF64 /* LogModel.swift */,
+				FE986E192A1262AF002ADF64 /* SizeModel.swift */,
+			);
+			path = "General Models";
+			sourceTree = "<group>";
+		};
+		FE986E3A2A1507BD002ADF64 /* SaveMLModelPopover */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E3D2A1507D8002ADF64 /* Model */,
+				FE986E3C2A1507D2002ADF64 /* View */,
+				FE986E3B2A1507CC002ADF64 /* Controller */,
+			);
+			path = SaveMLModelPopover;
+			sourceTree = "<group>";
+		};
+		FE986E3B2A1507CC002ADF64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E422A15093E002ADF64 /* SaveMLModelPopoverController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE986E3C2A1507D2002ADF64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E262A126B33002ADF64 /* SaveMLModelPopover.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE986E3D2A1507D8002ADF64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE986E3E2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +273,9 @@
 			dependencies = (
 			);
 			name = MyTextClassifier;
+			packageProductDependencies = (
+				FE986E242A1263F2002ADF64 /* SwiftyJSON */,
+			);
 			productName = MyTextClassifier;
 			productReference = FE986DFE2A1261C1002ADF64 /* MyTextClassifier.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +304,9 @@
 				Base,
 			);
 			mainGroup = FE986DF52A1261C1002ADF64;
+			packageReferences = (
+				FE986E232A1263F2002ADF64 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = FE986DFF2A1261C1002ADF64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +335,20 @@
 			files = (
 				FE986E042A1261C1002ADF64 /* ContentView.swift in Sources */,
 				FE986E022A1261C1002ADF64 /* MyTextClassifierApp.swift in Sources */,
+				FE986E372A14F0A6002ADF64 /* JsonController.swift in Sources */,
+				FE986E222A126341002ADF64 /* IndicatorsView.swift in Sources */,
+				FE986E1C2A1262D3002ADF64 /* ClassifierModel.swift in Sources */,
+				FE986E272A126B33002ADF64 /* SaveMLModelPopover.swift in Sources */,
+				FE986E2B2A127312002ADF64 /* LogModel.swift in Sources */,
+				FE986E3F2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift in Sources */,
+				FE986E2D2A13BAF4002ADF64 /* ButtonsModel.swift in Sources */,
+				FE986E432A15093E002ADF64 /* SaveMLModelPopoverController.swift in Sources */,
+				FE986E1A2A1262AF002ADF64 /* SizeModel.swift in Sources */,
+				FE986E182A126284002ADF64 /* TextClassifier.swift in Sources */,
+				FE986E352A14F01F002ADF64 /* JsonModel.swift in Sources */,
+				FE986E292A1272D6002ADF64 /* CreateJsonView.swift in Sources */,
+				FE986E1F2A126317002ADF64 /* JSONInformationsView.swift in Sources */,
+				FE986E392A14FE54002ADF64 /* ContentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +544,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE986E232A1263F2002ADF64 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE986E242A1263F2002ADF64 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE986E232A1263F2002ADF64 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE986DF62A1261C1002ADF64 /* Project object */;
 }

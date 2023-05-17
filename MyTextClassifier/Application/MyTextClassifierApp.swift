@@ -11,7 +11,11 @@ import SwiftUI
 struct MyTextClassifierApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                NavigationView{
+                    ContentView()
+                }
+            }.navigationViewStyle(.automatic)
         }
     }
 }
