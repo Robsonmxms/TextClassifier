@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4EEF012A1649E60096CBF5 /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4EEF002A1649E60096CBF5 /* Button+.swift */; };
 		FE986E022A1261C1002ADF64 /* MyTextClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E012A1261C1002ADF64 /* MyTextClassifierApp.swift */; };
 		FE986E042A1261C1002ADF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E032A1261C1002ADF64 /* ContentView.swift */; };
 		FE986E062A1261C2002ADF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE986E052A1261C2002ADF64 /* Assets.xcassets */; };
@@ -14,13 +15,12 @@
 		FE986E182A126284002ADF64 /* TextClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E172A126284002ADF64 /* TextClassifier.swift */; };
 		FE986E1A2A1262AF002ADF64 /* SizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E192A1262AF002ADF64 /* SizeModel.swift */; };
 		FE986E1C2A1262D3002ADF64 /* ClassifierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E1B2A1262D3002ADF64 /* ClassifierModel.swift */; };
-		FE986E1F2A126317002ADF64 /* JSONInformationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */; };
 		FE986E222A126341002ADF64 /* IndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E212A126341002ADF64 /* IndicatorsView.swift */; };
 		FE986E252A1263F2002ADF64 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FE986E242A1263F2002ADF64 /* SwiftyJSON */; };
 		FE986E272A126B33002ADF64 /* SaveMLModelPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E262A126B33002ADF64 /* SaveMLModelPopover.swift */; };
 		FE986E292A1272D6002ADF64 /* CreateJsonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E282A1272D6002ADF64 /* CreateJsonView.swift */; };
 		FE986E2B2A127312002ADF64 /* LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E2A2A127312002ADF64 /* LogModel.swift */; };
-		FE986E2D2A13BAF4002ADF64 /* ButtonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */; };
+		FE986E2D2A13BAF4002ADF64 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E2C2A13BAF4002ADF64 /* ContentModel.swift */; };
 		FE986E352A14F01F002ADF64 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E342A14F01F002ADF64 /* JsonModel.swift */; };
 		FE986E372A14F0A6002ADF64 /* JsonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E362A14F0A6002ADF64 /* JsonController.swift */; };
 		FE986E392A14FE54002ADF64 /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE986E382A14FE54002ADF64 /* ContentController.swift */; };
@@ -29,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4EEF002A1649E60096CBF5 /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		FE986DFE2A1261C1002ADF64 /* MyTextClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTextClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE986E012A1261C1002ADF64 /* MyTextClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextClassifierApp.swift; sourceTree = "<group>"; };
 		FE986E032A1261C1002ADF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,12 +39,11 @@
 		FE986E172A126284002ADF64 /* TextClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextClassifier.swift; sourceTree = "<group>"; };
 		FE986E192A1262AF002ADF64 /* SizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeModel.swift; sourceTree = "<group>"; };
 		FE986E1B2A1262D3002ADF64 /* ClassifierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierModel.swift; sourceTree = "<group>"; };
-		FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInformationsView.swift; sourceTree = "<group>"; };
 		FE986E212A126341002ADF64 /* IndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsView.swift; sourceTree = "<group>"; };
 		FE986E262A126B33002ADF64 /* SaveMLModelPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMLModelPopover.swift; sourceTree = "<group>"; };
 		FE986E282A1272D6002ADF64 /* CreateJsonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJsonView.swift; sourceTree = "<group>"; };
 		FE986E2A2A127312002ADF64 /* LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogModel.swift; sourceTree = "<group>"; };
-		FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModel.swift; sourceTree = "<group>"; };
+		FE986E2C2A13BAF4002ADF64 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		FE986E342A14F01F002ADF64 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
 		FE986E362A14F0A6002ADF64 /* JsonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonController.swift; sourceTree = "<group>"; };
 		FE986E382A14FE54002ADF64 /* ContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
@@ -63,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE4EEEFF2A1649CD0096CBF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE4EEF002A1649E60096CBF5 /* Button+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FE986DF52A1261C1002ADF64 = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +137,7 @@
 		FE986E132A126230002ADF64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FE986E2C2A13BAF4002ADF64 /* ButtonsModel.swift */,
+				FE986E2C2A13BAF4002ADF64 /* ContentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 		FE986E162A126255002ADF64 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FE4EEEFF2A1649CD0096CBF5 /* Extensions */,
 				FE986E332A14EFBE002ADF64 /* General Models */,
 				FE986E172A126284002ADF64 /* TextClassifier.swift */,
 			);
@@ -163,7 +172,6 @@
 		FE986E1D2A126301002ADF64 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FE986E1E2A126317002ADF64 /* JSONInformationsView.swift */,
 				FE986E212A126341002ADF64 /* IndicatorsView.swift */,
 			);
 			path = Components;
@@ -338,16 +346,16 @@
 				FE986E372A14F0A6002ADF64 /* JsonController.swift in Sources */,
 				FE986E222A126341002ADF64 /* IndicatorsView.swift in Sources */,
 				FE986E1C2A1262D3002ADF64 /* ClassifierModel.swift in Sources */,
+				FE4EEF012A1649E60096CBF5 /* Button+.swift in Sources */,
 				FE986E272A126B33002ADF64 /* SaveMLModelPopover.swift in Sources */,
 				FE986E2B2A127312002ADF64 /* LogModel.swift in Sources */,
 				FE986E3F2A1508CA002ADF64 /* SaveMLModelPopoverModel.swift in Sources */,
-				FE986E2D2A13BAF4002ADF64 /* ButtonsModel.swift in Sources */,
+				FE986E2D2A13BAF4002ADF64 /* ContentModel.swift in Sources */,
 				FE986E432A15093E002ADF64 /* SaveMLModelPopoverController.swift in Sources */,
 				FE986E1A2A1262AF002ADF64 /* SizeModel.swift in Sources */,
 				FE986E182A126284002ADF64 /* TextClassifier.swift in Sources */,
 				FE986E352A14F01F002ADF64 /* JsonModel.swift in Sources */,
 				FE986E292A1272D6002ADF64 /* CreateJsonView.swift in Sources */,
-				FE986E1F2A126317002ADF64 /* JSONInformationsView.swift in Sources */,
 				FE986E392A14FE54002ADF64 /* ContentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

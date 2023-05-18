@@ -14,12 +14,13 @@ struct CreateJsonView: View {
     private var controller = JsonController()
     
     var body: some View {
-
         VStack(alignment: .leading){
             Button("Save JSON") {
                 classifierModel.filePath = controller.configureJson(jsonText: model.jsonText)
                 dismiss()
-            }.disabled(!model.isAvailableToSave)
+            }
+            .accentStyle(model.isAvailableToSave)
+            .disabled(!model.isAvailableToSave)
 
             ZStack(alignment: .topLeading) {
 

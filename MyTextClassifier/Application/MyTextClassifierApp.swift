@@ -12,10 +12,8 @@ struct MyTextClassifierApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                NavigationView{
-                    ContentView()
-                }
-            }.navigationViewStyle(.automatic)
+                ContentView()
+            }
         }
     }
 }

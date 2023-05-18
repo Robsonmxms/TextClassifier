@@ -1,5 +1,5 @@
 //
-//  ButtonsModel.swift
+//  ContentModel.swift
 //  MyTextClassifier
 //
 //  Created by Robson Lima Lopes on 16/05/23.

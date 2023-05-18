@@ -54,6 +54,8 @@ struct SaveMLModelPopover: View {
                     controller.saveMLModel(textClassifier: &textClassifier, model: model)
                     dismiss()
                 }.disabled(!isAbleToSave)
+                    .background(isAbleToSave ? Color("AccentColor") : .primary.opacity(0.05))
+                    .cornerRadius(5)
             }
             .onChange(of: isModelChanged) { newValue in
                 isAbleToSave = newValue

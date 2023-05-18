@@ -16,11 +16,9 @@ struct ContentView: View {
     @State var textClassifier: TextClassifier?
     @ObservedObject var logModel = LogModel.singleton
 
-    @State private var jsonInformationsViewIsPresented = false
-
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
-            HStack(alignment: .top){
+            HStack(alignment: .top, spacing: 20){
                 VStack(alignment: .leading, spacing: 40){
                     jsonInformationsView
                         .frame(width: SizeModel.width*0.42)
@@ -37,8 +35,10 @@ struct ContentView: View {
 
                 Button("Clear", action: {
                     logModel.logs = []
-                }).disabled(!model.isAbleToClear)
-            }.frame(width: SizeModel.width*0.82)
+                })
+                .destructiveStyle(model.isAbleToClear)
+                .disabled(!model.isAbleToClear)
+            }.frame(width: SizeModel.width*0.83)
         }
         .padding()
         .onAppear{
@@ -48,17 +48,28 @@ struct ContentView: View {
                 classifierModel: classifierModel,
                 model: model
             )
-            jsonInformationsViewIsPresented = true
         }
-
     }
 
-    var jsonInformationsView: AnyView {
-        if jsonInformationsViewIsPresented {
-            return AnyView(JSONInformationsView(with: controller!)
-                .environmentObject(classifierModel))
-        } else {
-            return AnyView(EmptyView())
+    var jsonInformationsView: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            HStack {
+                VStack(alignment: .leading,spacing: 10){
+                    Button("Select JSON", action: {
+                        controller!.getFilePath()
+                    })
+                    .accentStyle(true)
+
+                    NavigationLink(
+                        destination: CreateJsonView().environmentObject(classifierModel)
+                    ) {
+                        Text("Create JSON")
+                    }
+                    .accentStyle(true)
+                }
+                TextField("Enter the file path", text: $classifierModel.filePath)
+                    .textFieldStyle(.roundedBorder)
+            }
         }
     }
 
@@ -67,11 +78,15 @@ struct ContentView: View {
             VStack(alignment: .leading){
                 Button("Train model", action: {
                     controller!.trainModelButtonAction()
-                }).disabled(!model.isAbleToTrain)
+                })
+                .accentStyle(model.isAbleToTrain)
+                .disabled(!model.isAbleToTrain)
 
                 Button("Save model", action: {
                     model.isSavePopoverVisible.toggle()
-                }).disabled(!model.isAbleToSave)
+                })
+                .accentStyle(model.isAbleToSave)
+                .disabled(!model.isAbleToSave)
             }
             Spacer()
             IndicatorsView().environmentObject(classifierModel)
@@ -92,10 +107,14 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Button("Verify", action: {
                     controller!.verifyButtonAction()
-                }).disabled(!model.isAbleToVerify)
+                })
+                .accentStyle(model.isAbleToVerify)
+                .disabled(!model.isAbleToVerify)
                 Button("Delete", action: {
                     model.text = ""
-                }).disabled(!model.isAbleToDeleteText)
+                })
+                .destructiveStyle(model.isAbleToDeleteText)
+                .disabled(!model.isAbleToDeleteText)
             }
         }.onChange(of: model.text.isEmpty){ newValue in
             model.isAbleToDeleteText = !newValue
@@ -122,7 +141,7 @@ struct ContentView: View {
                 .scrollContentBackground(.hidden)
                 .font(.title2)
                 .padding()
-        }.padding()
+        }
     }
 
     var logBox: some View {
